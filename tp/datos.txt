@@ -1,0 +1,63 @@
+usuario cheo
+clave 123456
+t_usuario 1 "admin"
+token = 
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c3VhcmlvIjoiY2hlbyIsInRpcG9fdXN1YXJpbyI6
+ImFkbWluIiwiY2xhdmUiOiIkMnkkMTAkY0dqd3JyeENjcnRHcnZtalkyXC96T3VyTFhWSkNxVzNpa
+Epud1V6SDlcL3ZaV3RPeGFqWFV4cSJ9.N6GXmGeqFlUmrOeNqJiakmBRoZvExmVLoTAjz7F09Ms
+
+
+usuario marito
+clave 123456
+t_usuario 2 "socio"
+token = 
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c3VhcmlvIjoibWFyaXRvIiwidGlwb191c3VhcmlvI
+joic29jaW8iLCJjbGF2ZSI6IiQyeSQxMCR6My5SN2g1aW9MZ3dVUWp0TGMyWUtlWGxWclk2Yjl4RmU0V0
+M1aVNSclZLVGlJdXFpTXhacSJ9.sSq-SZwRuW7nlE0ShBJHZ8gO2OntOJQKwLLpcJWIVMI
+
+
+usuario gonza
+clave 123456 
+t_usuario 3 "empleado" , mozo 2
+token = 
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c3VhcmlvIjoiZ29uemEiLCJ0aXBvX3VzdWFyaW8iOiJlb
+XBsZWFkbyIsImNsYXZlIjoiJDJ5JDEwJGJhNXh1b25GUVUwc3RacTQ1aXlWUHVRQXUwVzBwYlpuMEE4ZmN2RG
+hPTXZoeGVjQ2dibUMyIn0.xCihrm5yVkSGvhbFOq2l3Uk0Fvg7jm_ov8uWuScLgLw
+
+
+usuario santi
+clave 123456
+t_usuario 3 "empleado", cocinero 1
+token = 
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c3VhcmlvIjoic2FudGkiLCJ0aXBvX3VzdWFyaW8i
+OiJlbXBsZWFkbyIsImNsYXZlIjoiJDJ5JDEwJERIbWtxeFozelJYcWxtTXBCRmJFVWVmclRsaGVIRHUxaDRmRlltWT
+lcL3UwbnV0YjlqSHBBdSJ9.XGVECRZiAxHdZjsINO5toH66CaLbPTIHCTTJM5hTRTI
+
+
+usuario marian
+clave 123456
+t_usuario 3 "empleado", bartender 3
+token = 
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c3VhcmlvIjoibWFyaWFuIiwidGlwb191c3VhcmlvIjoiZW1wbGVhZG
+8iLCJjbGF2ZSI6IiQyeSQxMCRLajhJdHozYUxkUVwvbnZUWXFXOXFiLmxQeEtpM2lrTHlUTUZaaVdlMDQ5QW9tRHg4M092WV
+cifQ.-saOOYdu5xsLUfFaTO7WkX96Nx2pf6JFT1P_BRkKFz8
+
+
+
+usuario nahue
+clave 123456
+t_usuario 3 "empleado", cervecero 4
+token = 
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c3VhcmlvIjoibmFodWUiLCJ0aXBvX3VzdWFyaW8iOiJlbXBsZWFkbyIsImN
+sYXZlIjoiJDJ5JDEwJGd0SldmNlZUbGxlRUFOZmZcL2pzSkVPTG9OZThHOS5pZ2Nsa3Y0WEZRSEdNUGRNdHlkNVlsdSJ9.OiU64_
+WiFV79WNSH6N8cO18gCeJp8KohzdEkrnXYlCE
+
+
+
+PEDIDO 
+codigo fa430
+mesa 59541
+cliente lucas
+
+
+-P~}OIv=*f}7#V9S

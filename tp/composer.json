@@ -1,0 +1,23 @@
+{
+    "name": "cheo/sp",
+    "description": "tp",
+    "authors": [
+        {
+            "name": "Eliseo Luquez",
+            "email": "leliseo89@hotmail.com"
+        }
+    ],
+    "require": {
+        "firebase/php-jwt": "^5.2",
+        "slim/slim": "4.*",
+        "slim/psr7": "^1.2",
+        "illuminate/database": "^8.14",
+        "illuminate/events": "^8.14"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\":"src",
+            "Config\\":"config"
+        }
+    }
+}

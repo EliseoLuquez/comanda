@@ -1,0 +1,838 @@
+{
+	"info": {
+		"_postman_id": "0f6c8cb5-88b3-463d-9836-7bfb53501196",
+		"name": "tp Copy",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "registro",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost/Programacion3/Cursada/tp/public/registro",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"Programacion3",
+						"Cursada",
+						"tp",
+						"public",
+						"registro"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "usuario",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "localhost/Programacion3/Cursada/tp/public/registro",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"Programacion3",
+								"Cursada",
+								"tp",
+								"public",
+								"registro"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost/Programacion3/Cursada/tp/public/login",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"Programacion3",
+						"Cursada",
+						"tp",
+						"public",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "tipo_empleado",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "token",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c3VhcmlvIjoiY2hlbyIsInRpcG8iOm51bGwsImNsYXZlIjoiJDJ5JDEwJGlKNlVnUEVKckFwQ3hoYktyVzZ1Vk8uSDRIQjFoUWRZa0k0WThvRHg4Vzc1WUMwVGJBMVVPIn0.JPRQGMXZKtJDqWyLJ8fVo1-BLJNpLnkHVR_G9aKQZWA",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "descripcion",
+							"value": "admin",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost/Programacion3/Cursada/tp/public/tipo_usuario",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"Programacion3",
+						"Cursada",
+						"tp",
+						"public",
+						"tipo_usuario"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "sector",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "token",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c3VhcmlvIjoiY2hlbyIsInRpcG8iOm51bGwsImNsYXZlIjoiJDJ5JDEwJGlKNlVnUEVKckFwQ3hoYktyVzZ1Vk8uSDRIQjFoUWRZa0k0WThvRHg4Vzc1WUMwVGJBMVVPIn0.JPRQGMXZKtJDqWyLJ8fVo1-BLJNpLnkHVR_G9aKQZWA",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "descripcion",
+							"value": "admin",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost/Programacion3/Cursada/tp/public/tipo_usuario",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"Programacion3",
+						"Cursada",
+						"tp",
+						"public",
+						"tipo_usuario"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "mesa",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "token",
+						"type": "text",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c3VhcmlvIjoiY2hlbyIsInRpcG8iOm51bGwsImNsYXZlIjoiJDJ5JDEwJGlKNlVnUEVKckFwQ3hoYktyVzZ1Vk8uSDRIQjFoUWRZa0k0WThvRHg4Vzc1WUMwVGJBMVVPIn0.JPRQGMXZKtJDqWyLJ8fVo1-BLJNpLnkHVR_G9aKQZWA"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "descripcion",
+							"value": "admin",
+							"type": "text"
+						},
+						{
+							"key": "codigo",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "estado_id",
+							"value": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost/Programacion3/Cursada/tp/public/mesa",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"Programacion3",
+						"Cursada",
+						"tp",
+						"public",
+						"mesa"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "cambio estado mesa Mozo",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "token",
+						"type": "text",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c3VhcmlvIjoiY2hlbyIsInRpcG8iOm51bGwsImNsYXZlIjoiJDJ5JDEwJGlKNlVnUEVKckFwQ3hoYktyVzZ1Vk8uSDRIQjFoUWRZa0k0WThvRHg4Vzc1WUMwVGJBMVVPIn0.JPRQGMXZKtJDqWyLJ8fVo1-BLJNpLnkHVR_G9aKQZWA"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "descripcion",
+							"value": "admin",
+							"type": "text"
+						},
+						{
+							"key": "codigo",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "estado_id",
+							"value": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost/Programacion3/Cursada/tp/public/mesa",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"Programacion3",
+						"Cursada",
+						"tp",
+						"public",
+						"mesa"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "cambio estado mesa Socio",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "token",
+						"type": "text",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c3VhcmlvIjoibWFyaXRvIiwidGlwb191c3VhcmlvIjoic29jaW8iLCJjbGF2ZSI6IiQyeSQxMCR6My5SN2g1aW9MZ3dVUWp0TGMyWUtlWGxWclk2Yjl4RmU0V0M1aVNSclZLVGlJdXFpTXhacSJ9.sSq-SZwRuW7nlE0ShBJHZ8gO2OntOJQKwLLpcJWIVMI"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "descripcion",
+							"value": "admin",
+							"type": "text"
+						},
+						{
+							"key": "codigo",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "estado_id",
+							"value": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost/Programacion3/Cursada/tp/public/mesa/",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"Programacion3",
+						"Cursada",
+						"tp",
+						"public",
+						"mesa",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "estado_mesa",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "token",
+						"type": "text",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c3VhcmlvIjoiY2hlbyIsInRpcG9fdXN1YXJpbyI6ImFkbWluIiwiY2xhdmUiOiIkMnkkMTAkVkg5N1FGOTE2XC9EVXU0cUZONFBLOWVtNVl6QW1SakViV2x6TVwvQ2VjbTZOMkRBdFBHbUdjSyJ9.AN02hYFfi23NXafWkIajY1RRDGgn6KSCQJdYLqnEGZg"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "descripcion",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "",
+							"value": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "",
+							"value": "",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost/Programacion3/Cursada/tp/public/estado_mesa",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"Programacion3",
+						"Cursada",
+						"tp",
+						"public",
+						"estado_mesa"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "estado_empleado",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "token",
+						"type": "text",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c3VhcmlvIjoiY2hlbyIsInRpcG8iOm51bGwsImNsYXZlIjoiJDJ5JDEwJGlKNlVnUEVKckFwQ3hoYktyVzZ1Vk8uSDRIQjFoUWRZa0k0WThvRHg4Vzc1WUMwVGJBMVVPIn0.JPRQGMXZKtJDqWyLJ8fVo1-BLJNpLnkHVR_G9aKQZWA"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "descripcion",
+							"value": "admin",
+							"type": "text"
+						},
+						{
+							"key": "codigo",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "estado_id",
+							"value": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost/Programacion3/Cursada/tp/public/mesa",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"Programacion3",
+						"Cursada",
+						"tp",
+						"public",
+						"mesa"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "estado_pedido",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "token",
+						"type": "text",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c3VhcmlvIjoiY2hlbyIsInRpcG8iOm51bGwsImNsYXZlIjoiJDJ5JDEwJGlKNlVnUEVKckFwQ3hoYktyVzZ1Vk8uSDRIQjFoUWRZa0k0WThvRHg4Vzc1WUMwVGJBMVVPIn0.JPRQGMXZKtJDqWyLJ8fVo1-BLJNpLnkHVR_G9aKQZWA"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "descripcion",
+							"value": "admin",
+							"type": "text"
+						},
+						{
+							"key": "codigo",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "estado_id",
+							"value": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost/Programacion3/Cursada/tp/public/mesa",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"Programacion3",
+						"Cursada",
+						"tp",
+						"public",
+						"mesa"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "pedido",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "token",
+						"type": "text",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c3VhcmlvIjoiY2hlbyIsInRpcG8iOm51bGwsImNsYXZlIjoiJDJ5JDEwJGlKNlVnUEVKckFwQ3hoYktyVzZ1Vk8uSDRIQjFoUWRZa0k0WThvRHg4Vzc1WUMwVGJBMVVPIn0.JPRQGMXZKtJDqWyLJ8fVo1-BLJNpLnkHVR_G9aKQZWA"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "descripcion",
+							"value": "admin",
+							"type": "text"
+						},
+						{
+							"key": "codigo",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "estado_id",
+							"value": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost/Programacion3/Cursada/tp/public/mesa",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"Programacion3",
+						"Cursada",
+						"tp",
+						"public",
+						"mesa"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "pedido cliente",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "token",
+						"type": "text",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c3VhcmlvIjoibWFyaXRvIiwidGlwb191c3VhcmlvIjoic29jaW8iLCJjbGF2ZSI6IiQyeSQxMCR6My5SN2g1aW9MZ3dVUWp0TGMyWUtlWGxWclk2Yjl4RmU0V0M1aVNSclZLVGlJdXFpTXhacSJ9.sSq-SZwRuW7nlE0ShBJHZ8gO2OntOJQKwLLpcJWIVMI"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "descripcion",
+							"value": "admin",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "codigo",
+							"value": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "estado_id",
+							"value": "",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost/Programacion3/Cursada/tp/public/pedido",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"Programacion3",
+						"Cursada",
+						"tp",
+						"public",
+						"pedido"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "orden",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "token",
+						"type": "text",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c3VhcmlvIjoiZ29uemEiLCJ0aXBvX3VzdWFyaW8iOiJlbXBsZWFkbyIsImNsYXZlIjoiJDJ5JDEwJGJhNXh1b25GUVUwc3RacTQ1aXlWUHVRQXUwVzBwYlpuMEE4ZmN2RGhPTXZoeGVjQ2dibUMyIn0.xCihrm5yVkSGvhbFOq2l3Uk0Fvg7jm_ov8uWuScLgLw"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "descripcion",
+							"value": "vino",
+							"type": "text"
+						},
+						{
+							"key": "sector_id",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "cantidad",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "precio",
+							"value": "450",
+							"type": "text"
+						},
+						{
+							"key": "pedido_id",
+							"value": "4",
+							"type": "text"
+						},
+						{
+							"key": "estado_id",
+							"value": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost/Programacion3/Cursada/tp/public/orden",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"Programacion3",
+						"Cursada",
+						"tp",
+						"public",
+						"orden"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "orden x sector (pendientes)",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "token",
+						"type": "text",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c3VhcmlvIjoiZ29uemEiLCJ0aXBvX3VzdWFyaW8iOiJlbXBsZWFkbyIsImNsYXZlIjoiJDJ5JDEwJGJhNXh1b25GUVUwc3RacTQ1aXlWUHVRQXUwVzBwYlpuMEE4ZmN2RGhPTXZoeGVjQ2dibUMyIn0.xCihrm5yVkSGvhbFOq2l3Uk0Fvg7jm_ov8uWuScLgLw"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "descripcion",
+							"value": "vino",
+							"type": "text"
+						},
+						{
+							"key": "sector_id",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "cantidad",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "precio",
+							"value": "450",
+							"type": "text"
+						},
+						{
+							"key": "pedido_id",
+							"value": "4",
+							"type": "text"
+						},
+						{
+							"key": "estado_id",
+							"value": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost/Programacion3/Cursada/tp/public/orden",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"Programacion3",
+						"Cursada",
+						"tp",
+						"public",
+						"orden"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "orden cambio estado",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "token",
+						"type": "text",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c3VhcmlvIjoiZ29uemEiLCJ0aXBvX3VzdWFyaW8iOiJlbXBsZWFkbyIsImNsYXZlIjoiJDJ5JDEwJGJhNXh1b25GUVUwc3RacTQ1aXlWUHVRQXUwVzBwYlpuMEE4ZmN2RGhPTXZoeGVjQ2dibUMyIn0.xCihrm5yVkSGvhbFOq2l3Uk0Fvg7jm_ov8uWuScLgLw"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "descripcion",
+							"value": "vino",
+							"type": "text"
+						},
+						{
+							"key": "sector_id",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "cantidad",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "precio",
+							"value": "450",
+							"type": "text"
+						},
+						{
+							"key": "pedido_id",
+							"value": "4",
+							"type": "text"
+						},
+						{
+							"key": "estado_id",
+							"value": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost/Programacion3/Cursada/tp/public/orden/2",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"Programacion3",
+						"Cursada",
+						"tp",
+						"public",
+						"orden",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "all pedido",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "token",
+						"type": "text",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c3VhcmlvIjoiZ29uemEiLCJ0aXBvX3VzdWFyaW8iOiJlbXBsZWFkbyIsImNsYXZlIjoiJDJ5JDEwJGJhNXh1b25GUVUwc3RacTQ1aXlWUHVRQXUwVzBwYlpuMEE4ZmN2RGhPTXZoeGVjQ2dibUMyIn0.xCihrm5yVkSGvhbFOq2l3Uk0Fvg7jm_ov8uWuScLgLw"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "descripcion",
+							"value": "admin",
+							"type": "text"
+						},
+						{
+							"key": "codigo",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "estado_id",
+							"value": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost/Programacion3/Cursada/tp/public/pedido/2",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"Programacion3",
+						"Cursada",
+						"tp",
+						"public",
+						"pedido",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get pedido",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "token",
+						"type": "text",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c3VhcmlvIjoiZ29uemEiLCJ0aXBvX3VzdWFyaW8iOiJlbXBsZWFkbyIsImNsYXZlIjoiJDJ5JDEwJGJhNXh1b25GUVUwc3RacTQ1aXlWUHVRQXUwVzBwYlpuMEE4ZmN2RGhPTXZoeGVjQ2dibUMyIn0.xCihrm5yVkSGvhbFOq2l3Uk0Fvg7jm_ov8uWuScLgLw"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "descripcion",
+							"value": "admin",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "codigo",
+							"value": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "estado_id",
+							"value": "",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost/Programacion3/Cursada/tp/public/pedido/2",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"Programacion3",
+						"Cursada",
+						"tp",
+						"public",
+						"pedido",
+						"2"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"variable": [
+		{
+			"id": "d5aeee47-8529-450d-8168-391435b91d32",
+			"key": "mozo",
+			"value": "{{mozo}}"
+		}
+	],
+	"protocolProfileBehavior": {}
+}
